@@ -1,0 +1,23 @@
+PODS:
+  - WXAuthTool (0.1.0):
+    - XXWeChatSDK
+  - XXWeChatSDK (1.8.5)
+
+DEPENDENCIES:
+  - WXAuthTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - XXWeChatSDK
+
+EXTERNAL SOURCES:
+  WXAuthTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WXAuthTool: 797a710deb20b6abfc2f3dee7d0f2252261e01b6
+  XXWeChatSDK: f1bd60500664f03f3631ecb1947e9f6508e25f19
+
+PODFILE CHECKSUM: b78c50a530b231d2a3705818a8c7a0dd8c7ee6bd
+
+COCOAPODS: 1.8.0.beta.2

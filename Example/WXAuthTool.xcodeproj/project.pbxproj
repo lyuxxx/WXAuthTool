@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		055712D943B9472E4896F5D8 /* Pods_WXAuthTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B46CB7490D4668EAEFF226A /* Pods_WXAuthTool_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EF5E145158CC903FF218CAB1 /* Pods_WXAuthTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9697161375A2DB20832D16 /* Pods_WXAuthTool_Tests.framework */; };
+		9E9568CFEA5E6A4F13EE03A7 /* libPods-WXAuthTool_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E681E667AC9F9C3D132001AB /* libPods-WXAuthTool_Tests.a */; };
+		DD8F49A5C6C6BE47F7517E9E /* libPods-WXAuthTool_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F19503728E02B4D2992E9 /* libPods-WXAuthTool_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B46CB7490D4668EAEFF226A /* Pods_WXAuthTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXAuthTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BB0741BD3E88AE02E4B67A /* Pods-WXAuthTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXAuthTool_Example.release.xcconfig"; path = "Target Support Files/Pods-WXAuthTool_Example/Pods-WXAuthTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		28BF52C7AB45FDEB997F33B9 /* Pods-WXAuthTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXAuthTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-WXAuthTool_Example/Pods-WXAuthTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2BA85F9A039966514BF0D34E /* Pods-WXAuthTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXAuthTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-WXAuthTool_Tests/Pods-WXAuthTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2E9697161375A2DB20832D16 /* Pods_WXAuthTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXAuthTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5018108D247B9C9DFFEFFC39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WXAuthTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXAuthTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +64,9 @@
 		6B89E0811040476A5012A42D /* WXAuthTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WXAuthTool.podspec; path = ../WXAuthTool.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E2F19503728E02B4D2992E9 /* libPods-WXAuthTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXAuthTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AC95A72095E7FCA4B76087 /* Pods-WXAuthTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXAuthTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WXAuthTool_Tests/Pods-WXAuthTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E681E667AC9F9C3D132001AB /* libPods-WXAuthTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXAuthTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				055712D943B9472E4896F5D8 /* Pods_WXAuthTool_Example.framework in Frameworks */,
+				DD8F49A5C6C6BE47F7517E9E /* libPods-WXAuthTool_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				EF5E145158CC903FF218CAB1 /* Pods_WXAuthTool_Tests.framework in Frameworks */,
+				9E9568CFEA5E6A4F13EE03A7 /* libPods-WXAuthTool_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0B46CB7490D4668EAEFF226A /* Pods_WXAuthTool_Example.framework */,
-				2E9697161375A2DB20832D16 /* Pods_WXAuthTool_Tests.framework */,
+				8E2F19503728E02B4D2992E9 /* libPods-WXAuthTool_Example.a */,
+				E681E667AC9F9C3D132001AB /* libPods-WXAuthTool_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B0F442F17DCFEBBA5E3B2D7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B0F442F17DCFEBBA5E3B2D7F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WXAuthTool_Example/Pods-WXAuthTool_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WXAuthTool/WXAuthTool.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXAuthTool.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WXAuthTool_Example/Pods-WXAuthTool_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B534B3A0ADF8543F5510B2BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

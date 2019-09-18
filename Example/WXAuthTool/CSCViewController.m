@@ -7,6 +7,7 @@
 //
 
 #import "CSCViewController.h"
+#import <WXAuthTool.h>
 
 @interface CSCViewController ()
 
@@ -24,6 +25,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)wechatAuth {
+    [[WXAuthTool shared] sendWXAuthRequestWithCallBack:^(NSInteger respCode, NSString *code) {
+        if (respCode == 0) {//成功会返回code，其它为nil
+            
+        }
+    }];
 }
 
 @end
