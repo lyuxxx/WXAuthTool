@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WXAuthTool_Example' do
+  pod 'WXAuthTool', :path => '../'
+
+  target 'WXAuthTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
