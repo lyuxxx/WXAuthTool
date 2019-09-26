@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WXAuthTool'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '微信登录'
   s.description      = <<-DESC
 微信登录工具类

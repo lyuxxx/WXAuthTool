@@ -1,7 +1,7 @@
 PODS:
-  - WXAuthTool (0.1.0):
+  - WXAuthTool (0.2.0):
     - XXWeChatSDK
-  - XXWeChatSDK (1.8.5)
+  - XXWeChatSDK (1.8.6.1)
 
 DEPENDENCIES:
   - WXAuthTool (from `../`)
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WXAuthTool: 797a710deb20b6abfc2f3dee7d0f2252261e01b6
-  XXWeChatSDK: f1bd60500664f03f3631ecb1947e9f6508e25f19
+  WXAuthTool: af0af86bebeaf87bf11d2bcc850b6a4a67dfaa5f
+  XXWeChatSDK: b245e9da83db8e277004b71546eddfdb782aed3e
 
 PODFILE CHECKSUM: b78c50a530b231d2a3705818a8c7a0dd8c7ee6bd
 
-COCOAPODS: 1.8.0.beta.2
+COCOAPODS: 1.8.0
